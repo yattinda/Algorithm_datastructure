@@ -11,7 +11,7 @@ bool func (int i, int w, const vector<int> &a){
             return false;
         }
     }
-
+    // 確率漸化式的な考え方
     if(func(i - 1, w, a)){
         return true;
     }
@@ -38,4 +38,3 @@ int main(){
         cout << "No" << endl;
     }
 }
-
